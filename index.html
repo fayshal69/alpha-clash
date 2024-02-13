@@ -33,11 +33,11 @@
 
         <!-- play ground page -->
         <section id="play-ground" class="hidden">
-            <div class="flex flex-col items-center gap-20 pt-20">
+            <div class="flex flex-col items-center gap-7 lg:gap-20 pt-10 lg:pt-20">
                 <!-- screen container -->
                 <div>
-                    <div class="artboard artboard-horizontal phone-6 border-[20px] border-[#010313CC] rounded-2xl bg-white bg-opacity-70">
-                        <div class="max-w-max mx-auto bg-[#2F2941] text-white text-lg px-8 pb-4 rounded-b-xl">
+                    <div class="w-full lg:w-[1024px] h-[320px] border-[20px] border-[#010313CC] rounded-2xl bg-white bg-opacity-70">
+                        <div class="max-w-max mx-auto bg-[#2F2941] text-white text-sm lg:text-lg px-8 pb-4 rounded-b-xl">
                             <p>Don't watch keyboard  while playing...</p>
                         </div>
                         <div class="h-full flex justify-center items-center">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <!-- keyboard container -->
-                <div>
+                <div class="w-full lg:w-auto">
                     <div class="flex justify-center gap-1 my-1 w-full">
                         <kbd class="kbd" id="q">q</kbd>
                         <kbd class="kbd" id="w">w</kbd>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <!-- life score container -->
-                <div class="flex justify-between w-3/4">
+                <div class="flex gap-1 lg:justify-between lg:w-3/4">
                     <button class="rounded-full bg-[#894189] border-none px-8 py-4 text-2xl text-white font-medium">
                         <span>Life</span> <i class="fa-solid fa-heart-circle-bolt mx-2"></i> <span>1</span>
                     </button>
@@ -94,9 +94,9 @@
         </section>
 
         <!-- score board page -->
-        <section id="score" class="min-h-screen justify-center items-center hidden">
-            <div class="text-white p-12 flex flex-col items-center gap-10 rounded-2xl bg-[#FFFFFF33]">
-              <h1 class="text-8xl font-medium"><span>Score : </span><span>00</span></h1> 
+        <section id="score" class="min-h-screen justify-center items-center flex hidden">
+            <div class="text-white p-6 lg:p-12 flex flex-col items-center gap-7 lg:gap-10 rounded-2xl bg-[#FFFFFF33]">
+              <h1 class="text-5xl lg:text-8xl font-medium"><span>Score : </span><span>00</span></h1> 
               <button class="px-8 py-4 text-black text-2xl font-semibold bg-white rounded-lg">Play Again</button> 
               <p class="text-xl font-medium">Practice will make you Pro</p>
             </div>
