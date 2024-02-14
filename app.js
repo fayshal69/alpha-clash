@@ -68,6 +68,12 @@ document.addEventListener('keyup', handleKeyPress);
 
 function handleKeyPress(e) {
     const playerPress = e.key;
+
+    // to stop the game
+    if(playerPress === 'Escape') {
+        gameOver();
+    }
+    
     // get the expected to press
     const currentAlphabet = document.getElementById('current-alphabet');
     const alphabet = currentAlphabet.innerText.toLowerCase();
