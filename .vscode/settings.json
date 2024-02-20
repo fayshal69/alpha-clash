@@ -1,0 +1,9 @@
+{
+    "editor.scrollBeyondLastLine": false,
+    "editor.wordWrap": "on",
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true
+}
