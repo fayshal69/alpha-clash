@@ -113,3 +113,5 @@ function gameOver() {
     const finalScore= document.getElementById('final-score');
     finalScore.innerText = point;
 }
+
+// finished the alpha cash
